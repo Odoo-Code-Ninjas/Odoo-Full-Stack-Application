@@ -90,7 +90,14 @@ Must NOT include:
 
 ---
 
-### 3.2 Website Module – Website & Portal Integration
+### 3.2 OWL Excercise - Base Module – Create Custom App with Client Action in new tab, this app will create it's own Webclient instance and should be developed in OWL 3.0
+
+* Event / Service Card view
+* Click card will open Detailed view of Event / Service
+* User can add new Service from Card view(while will be displayed to frontend users)
+* Internal users manage, approve, and track requests from here
+
+### 3.3 Website Module – Website & Portal Integration
 
 Example name:
 
@@ -112,7 +119,7 @@ Responsibilities:
 
 ---
 
-### 3.3 Dependency Declaration
+### 3.4 Dependency Declaration
 
 The website module **must depend on the base module** in `__manifest__.py`.
 
